@@ -1,32 +1,17 @@
-# Prerequisites
-*.d
+build/*
+cmake-build-debug/*
+log/*
+.cache/*
+.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Local History for Visual Studio Code
+.history/
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Built Visual Studio Code Extensions
+*.vsix
